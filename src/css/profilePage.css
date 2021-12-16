@@ -1,0 +1,78 @@
+.userinfo-container {
+  border: dotted 1px gray;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+.info-wrapper {
+  height: 190px;
+  margin: 10px;
+  width: 50%;
+  padding: 10px;
+  border: solid 1px grey;
+}
+.header > img {
+  height: 200px;
+}
+
+.user-detail {
+  display: flex;
+  margin-bottom: 5px;
+}
+.detail-name {
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.user-identity {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+.adress-container {
+  height: 190px;
+  width: 25%;
+  padding: 10px;
+  border: solid 1px grey;
+}
+
+.company-name {
+  margin-bottom: 25px;
+}
+
+.userInfo-history {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-history-names {
+  padding: 5px 10px;
+  text-decoration: underline;
+  color: rgb(52, 52, 107);
+}
+.search-history-names:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .header {
+    flex-direction: column;
+  }
+  .header > img {
+    width: 100%;
+  }
+  .info-wrapper {
+    width: 100%;
+  }
+  .adress-container {
+    width: 100%;
+  }
+}
+
+.title {
+  margin-left: 10px;
+}
